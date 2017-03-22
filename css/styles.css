@@ -1,7 +1,173 @@
-
 img {
   max-width: 100%;
 }
+
+.container {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+}
+
+.mastheadSection__row{
+  margin: 0%;
+  padding: 0%;
+  height: 390px;
+  width: 100%;
+  background: url(../images/heroSection_image.jpg) gray;
+  background-size: cover;
+}
+
+.mastheadSection__tagline h1{
+  text-align: center;
+  color: white;
+  background-color: #222;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 150px;
+}
+
+.aboutSection__row {
+  height: 400px;
+  padding-top: 2%;
+}
+
+.aboutSection__profilePic{
+  padding-top: 2%;
+}
+
+.aboutSection__content p{
+  font-size: 18px;
+  padding-top: 2%;
+  padding-right: 2%;
+}
+
+.experienceSection__header {
+  text-align: center;
+  padding-bottom: 2%
+}
+
+.experienceSection__amazon__content {
+  background: url(../images/amazon3.jpg) gray;
+  background-size: cover;
+  color: white;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  font-size: 18px;
+  padding-right: 10%;
+}
+
+.experienceSection__amazon__content h2 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.experienceSection__amazon__content h3 li{
+  font-size: 24px;
+}
+
+.experienceSection__samsung__content {
+  background: url(../images/samsung2.jpg) gray;
+  background-size: cover;
+  color: white;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  font-size: 18px;
+  padding-right: 10%;
+}
+
+.experienceSection__samsung__content h2 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.experienceSection__deloitte__content {
+  background: url(../images/deloitte2.jpg) gray;
+  background-size: cover;
+  color: white;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  font-size: 18px;
+  padding-right: 10%;
+}
+
+.experienceSection__deloitte__content h2 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+
+.footerSection__container {
+  background-color: #222;
+  color: #9d9d9d;
+  margin-top: 5%;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
+  text-align: right;
+}
+
+
+.bootstrap__box {
+  border-style: solid;
+  margin: 0%;
+  height: 400px;
+  padding-top: 125px;
+  background: url(../images/hero-image.jpeg) gray;
+  background-size: cover;
+  text-align: center;
+}
+
+.bootstrap__box h1 {
+  color: white;
+  background-color: #222;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.bootstrap__box2 {
+  border-style: solid;
+  margin: 0%;
+}
+
+.bootstrap__box3 {
+  border-style: solid;
+  margin: 0%;
+}
+
+.bootstrap__image {
+  height: 28%;
+  width: 28%;
+}
+
+.heroSection__image {
+  background: url(../images/hero-image.jpeg) gray;
+  background-size: cover;
+  width: 100%;
+}
+
+.box {
+  height: 200px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h2 {
   color: black;
@@ -9,6 +175,10 @@ h2 {
 
 ul {
   padding-left: 4%;
+}
+
+.row {
+  margin: 0px;
 }
 
 .navbar {
@@ -28,16 +198,17 @@ ul {
   margin-right: 2%;
   padding-top: 0%;
   padding-bottom: 2%;
-  align-items: center;
+/*  align-items: center;*/
 }
 
 .heroSection__image {
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 50%;
 }
 
 .aboutSection__container {
   padding: 0%;
+  margin: 0%;
 }
 
 .aboutSection__header {
@@ -45,11 +216,8 @@ ul {
   margin-right: 2%;
 }
 
-.aboutSection__content {
-  margin-left: 2%;
-  margin-right: 2%;
-}
 
+/*
 .experienceSection__container {
   padding: 0%;
 }
@@ -57,12 +225,12 @@ ul {
 .experienceSection__header {
   margin-left: 2%;
   margin-right: 2%;
-}
+}*/
 
-.experienceSection__amazon__image {
-  background: url(../images/amazon.jpeg);
+/*.experienceSection__amazon__image {
+  background: url(../images/amazon.jpeg) gray;
   background-size: cover;
-/*  width: 100%;*/
+  width: 100%;
 }
 
 .experienceSection__amazon__image__layer {
@@ -77,12 +245,19 @@ ul {
   margin-left: 2%;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+#experienceSection__imageTitle {
   opacity: 1.0;
 }
 
 .experienceSection__amazon__content {
   margin-left: 2%;
-  margin-right: 2%;
+  margin-right: 2%;*/
+}
+
+.experienceSection__samsung__image {
+  width: 50%;
 }
 
 /*@media (min-width: 768px) {
