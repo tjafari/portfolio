@@ -53,8 +53,8 @@ a:hover {
 }
 
 .aboutSection__row {
-  height: 400px;
   padding-top: 2%;
+  padding-bottom: 4%;
 }
 
 .aboutSection__profilePic{
@@ -151,17 +151,55 @@ a:hover {
   text-align: right;
 }
 
-
-
-/*@media (min-width: 768px) {
-
-
-  .heroSection__container {
-    display: flex;
+/*Tablet portrait*/
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 30px;
   }
 
-  .heroSection__tagline {
-    align-items: center;
-    align-items: stretch;
-  }*/
+  .mastheadSection__row {
+    height: 250px;
+  }
+
+  .mastheadSection__tagline h1{
+    margin-top: 90px;
+  }
+
+  .experienceSection__amazon__content {
+    padding-top: 1%;
+    height: 700px;
+  }
+
+  .experienceSection__samsung__content {
+    padding-top: 1%;
+    height: 700px;
+  }
+
+  .experienceSection__deloitte__content {
+    padding-top: 1%;
+    height: 700px;
+  }
+}
+
+/*Phone portrait*/
+@media only screen and (max-width: 480px) {
+  .experienceSection__amazon__content {
+    font-size: 16px;
+  }
+
+  .experienceSection__samsung__content {
+    font-size: 16px;
+  }
+
+  .experienceSection__deloitte__content {
+    font-size: 16px;
+  }
+
+  .connectSection__container {
+    padding-bottom: 5%;
+  }
+
+  .aboutSection__row p{
+    font-size: 16px;
+  }
 }
